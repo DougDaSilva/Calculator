@@ -36,10 +36,7 @@ namespace SimpleCalculator
             {
                 Console.WriteLine("O resultado é: " + Calculator.Multiplication(vect).ToString("F4", CultureInfo.InvariantCulture));
             }
-            if (sinal == '/' && n == 2)
-            {
-                Console.WriteLine("O resultado é: " + Calculator.Divison(vect).ToString("F4", CultureInfo.InvariantCulture));
-            }
+            
             else
             {
                 Console.WriteLine("Operação inválida!");
